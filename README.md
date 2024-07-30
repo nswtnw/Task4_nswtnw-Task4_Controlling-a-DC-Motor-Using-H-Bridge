@@ -13,19 +13,6 @@ This project involves controlling a DC motor using an Arduino Uno and an H-Bridg
 ## Circuit Diagram
 ![image](https://github.com/user-attachments/assets/fe915ad3-dc51-4cb3-8963-af94c2dbbc49)
 
-* Arduino to L293D:
-Digital Pin 3 to PWM input of L293D.
-Digital Pin 6 to IN1 of L293D.
-Digital Pin 7 to IN2 of L293D.
-Power and ground connections
-
-* Push Buttons to Arduino:
-Push button 1 connected to Digital Pin 4.
-Push button 2 connected to Digital Pin 5.
-
-* L293D to Motor:
-Motor connected to the output pins of L293D.
-
 ## Code Expanation
 The Arduino code is designed to read the input from two push buttons and control the motor's speed and direction accordingly.
 
